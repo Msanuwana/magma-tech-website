@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First Website</title>
+  <title>Magma Tech | Laptop & IT Repair</title>
 
   <style>
     body {
@@ -9,50 +9,100 @@
       background-color: #f4f6f8;
       margin: 0;
       padding: 0;
+    }
+
+    header {
+      background-color: #111827;
+      color: white;
+      padding: 20px;
       text-align: center;
     }
 
-    .box {
+    section {
+      max-width: 900px;
+      margin: 40px auto;
       background: white;
-      max-width: 600px;
-      margin: 80px auto;
-      padding: 40px;
+      padding: 30px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
-    h1 {
+    h2 {
       color: #1f2937;
     }
 
     p {
       color: #555;
-      font-size: 18px;
+      line-height: 1.6;
     }
 
-    button {
+    ul {
+      text-align: left;
+      color: #444;
+    }
+
+    .btn {
+      display: inline-block;
       background-color: #2563eb;
       color: white;
-      border: none;
       padding: 12px 20px;
-      font-size: 16px;
+      text-decoration: none;
       border-radius: 6px;
-      cursor: pointer;
+      margin-top: 15px;
     }
 
-    button:hover {
-      background-color: #1d4ed8;
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: #777;
+      font-size: 14px;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="box">
-    <h1>Hello 👋</h1>
-    <p>This is my first website built with GitHub + Netlify.</p>
-    <button>Get Started</button>
-  </div>
+  <header>
+    <h1>Magma Tech</h1>
+    <p>Laptop & IT Repair Services – Perth</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      Magma Tech is a small local IT repair service based in Perth.
+      We specialise in laptop repairs, hardware upgrades, and IT support.
+      Quality service, honest pricing, and fast turnaround.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Laptop & Desktop Repair</li>
+      <li>Screen & Battery Replacement</li>
+      <li>Windows & Software Installation</li>
+      <li>Virus Removal</li>
+      <li>Hardware Upgrades (SSD, RAM)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>
+      📍 Perth, WA<br>
+      📞 Phone / WhatsApp: 04XXXXXXXX<br>
+      📧 Email: magmatech@email.com
+    </p>
+
+    <a class="btn" href="https://wa.me/61XXXXXXXXX" target="_blank">
+      Message on WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    © 2026 Magma Tech. All rights reserved.
+  </footer>
 
 </body>
 </html>
